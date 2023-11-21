@@ -1,0 +1,73 @@
+
+{
+  "__meta": {
+    "Name": "Hades",
+    "Author": "bob118pie",
+    "Description": "A ship that's hull has been rusted beyond repear.",
+    "RequiredMods": [],
+    "ExtraLocalization": {}
+  },
+  "ship": {
+    "baseEnergy": 3,
+    "baseDraw": 5,
+    "evadeMax": null,
+    "hpGainFromEliteKills": 0,
+    "hpGainFromBossKills": 0,
+    "chassisOver": null,
+    "hull": 2,
+    "hullMax": 2,
+    "shieldMaxBase": 6,
+    "heatMin": 0,
+    "heatTrigger": 5,
+    "overheatDamage": 1,
+    "chassisUnder": "@@New_ships/Custom_Parts/chassis_rust_trim",
+    "parts": [{
+        "type": "wing",
+        "skin": "wing_rust",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "missiles",
+        "skin": "missiles_rust",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "cockpit",
+        "skin": "cockpit_rust",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "cannon",
+        "skin": "cannon_rust",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "wing",
+        "skin": "wing_rust",
+        "flip": true,
+        "damageModifier": "none",
+        "invincible": false
+      }
+    ],
+  },
+  "artifacts": [{
+      "$type": "ShieldPrep, CobaltCore"
+    }, {
+      "$type": "ShieldMemory, CobaltCore"
+    }
+  ],
+  "cards": [{
+      "$type": "CannonColorless, CobaltCore"
+    }, {
+      "$type": "CannonColorless, CobaltCore"
+    }, {
+      "$type": "DodgeColorless, CobaltCore"
+    }, {
+      "$type": "BasicShieldColorless, CobaltCore"
+    }
+  ]
+}

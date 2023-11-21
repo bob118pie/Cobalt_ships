@@ -1,0 +1,74 @@
+
+{
+  "__meta": {
+    "Name": "Zeus",
+    "Author": "bob118pie",
+    "Description": "A ship that has most its power rerouted away from sheilds.",
+    "RequiredMods": [],
+    "ExtraLocalization": {}
+  },
+  "ship": {
+    "baseEnergy": 4,
+    "baseDraw": 4,
+    "evadeMax": null,
+    "hpGainFromEliteKills": 0,
+    "hpGainFromBossKills": 0,
+    "chassisOver": null,
+    "hull": 6,
+    "hullMax": 6,
+    "shieldMaxBase": 1,
+    "heatMin": 0,
+    "heatTrigger": 3,
+    "overheatDamage": 2,
+    "chassisUnder": "@@New_ships/Custom_Parts/chassis_heavy",
+    "parts": [{
+        "type": "cannon",
+        "skin": "@@New_ships/Custom_Parts/cannon_heavy",
+        "flip": true,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "wing",
+        "skin": "@@New_ships/Custom_Parts/wing_heavy",
+        "flip": true,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "empty",
+        "skin": "scaffolding_boat",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "wing",
+        "skin": "@@New_ships/Custom_Parts/wing_heavy",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+
+   	"type": "missiles",
+        "skin": "@@New_ships/Custom_Parts/missiles_heavy",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }
+    ],
+  },
+  "artifacts": [{
+      "$type": "ShieldPrep, CobaltCore"
+    }, {
+      "$type": "BerserkerDrive, CobaltCore"
+    }
+  ],
+  "cards": [{
+      "$type": "EnergyDroneCard, CobaltCore"
+    }, {
+      "$type": "CannonColorless, CobaltCore"
+    }, {
+      "$type": "DodgeColorless, CobaltCore"
+    }, {
+      "$type": "BasicShieldColorless, CobaltCore"
+    }
+  ]
+}
