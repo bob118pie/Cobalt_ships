@@ -1,0 +1,67 @@
+
+{
+  "__meta": {
+    "Name": "Starnlake",
+    "Author": "bob118pie",
+    "Description": "A friendly creature that let you ride in its shell",
+    "RequiredMods": [],
+    "ExtraLocalization": {}
+  },
+  "ship": {
+    "baseEnergy": 3,
+    "baseDraw": 6,
+    "evadeMax": 5,
+    "hpGainFromEliteKills": 0,
+    "hpGainFromBossKills": 2,
+    "chassisOver": "asteroidBossChassis",
+    "hull": 15,
+    "hullMax": 30,
+    "shieldMaxBase": 0,
+    "heatMin": 0,
+    "heatTrigger": 2,
+    "overheatDamage": 1,
+    "chassisUnder": "asteroidBossChassisPhase2",
+    "parts": [{
+        "type": "cannon",
+        "skin": "tentacle",
+        "flip": true,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "missiles",
+        "skin": "tentacle",
+        "flip": true,
+        "damageModifier": "none",
+        "invincible": false
+      }, {
+        "type": "cockpit",
+        "skin": "octoMouth",
+        "flip": false,
+        "damageModifier": "brittle",
+        "invincible": false
+      }, {
+        "type": "cannon",
+        "skin": "tentacle",
+        "flip": false,
+        "damageModifier": "none",
+        "invincible": false
+      }
+    ],
+  },
+  "artifacts": [{
+      "$type": "ShieldPrep, CobaltCore"
+    }, {
+      "$type": "DailyShuffler, CobaltCore"
+    }
+  ],
+  "cards": [{
+      "$type": "SmallBoulder, CobaltCore"
+    }, {
+      "$type": "CannonColorless, CobaltCore"
+    }, {
+      "$type": "DodgeColorless, CobaltCore"
+    }, {
+      "$type": "TrashAutoShoot, CobaltCore"
+    }
+  ]
+}
