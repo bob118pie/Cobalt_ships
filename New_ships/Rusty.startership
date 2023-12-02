@@ -16,7 +16,7 @@
     "chassisOver": null,
     "hull": 2,
     "hullMax": 2,
-    "shieldMaxBase": 6,
+    "shieldMaxBase": 7,
     "heatMin": 0,
     "heatTrigger": 5,
     "overheatDamage": 1,
