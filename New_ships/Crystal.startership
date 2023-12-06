@@ -12,7 +12,7 @@
     "evadeMax": null,
     "hpGainFromEliteKills": 0,
     "hpGainFromBossKills": 2,
-    "hull": 2,
+    "hull": 5,
     "hullMax": 10,
     "shieldMaxBase": 0,
     "heatMin": 0,
