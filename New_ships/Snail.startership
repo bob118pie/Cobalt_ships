@@ -24,9 +24,8 @@
     "parts": [{
         "type": "cannon",
         "skin": "tentacle",
-        "flip": true,
+        "flip": false,
         "damageModifier": "none",
-        "invincible": false
       }, {
         "type": "missiles",
         "skin": "tentacle",
